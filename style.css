@@ -1,0 +1,53 @@
+/* 
+    *{
+        outline: auto rgba(0, 0, 0, 0.61);
+    } */
+    /* body{
+      border: 10px solid red;
+    } */
+    /* Custom CSS to make "NAV3" bold and color black */
+    .nav-item.dropdown .nav-link {
+      font-weight: bold;
+      color: black;
+    }
+
+   /* Custom CSS to remove the gap between the navbar and horizontal rule */
+  .navbar {
+    margin-bottom: 0 !important;
+    
+  }
+
+ 
+  hr.border-secondary-emphasis {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .wave-up,.wave-down{
+    height: 25vh;
+  }
+
+  .card{
+    padding:0;
+    
+  }
+ 
+  .image::before{
+    content: '';
+    background: url(assets/heading\ start.png);
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+ 
+  
+
+  @media (min-width: 992px) {
+   
+  .image{
+    background: none;
+  }
+   }
+  
+
